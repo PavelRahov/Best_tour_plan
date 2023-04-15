@@ -1,0 +1,307 @@
+/* 1024 - 1229 */
+@media screen and (max-width: 1229px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header .container {
+        justify-content: center;
+    }
+
+    .header__personal {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .personal-basket {
+        margin-left: 53px;
+        order: 2;
+    }
+
+    .activities .container {
+        max-width: 768px;
+    }
+
+    .packages__block {
+        display: grid;
+        grid-template-areas:
+        "biggy biggy"
+        "lux palace"
+        "luxury star";
+        gap: 30px;
+        justify-content: center;
+    }
+
+}
+
+
+/* 768 - 1023 */
+@media screen and (max-width: 1023px) {
+    .services__menu ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        justify-items: center;
+    }
+
+    .services__comfort-box {
+        grid-template-areas:
+        "small"
+        "medium"
+        "big";
+    }
+}
+
+
+
+/* 425 - 767 */
+@media screen and (max-width: 767px) {
+    .packages__block {
+        grid-template-areas:
+        "lux"
+        "palace"
+        "luxury"
+        "star";
+    }
+
+    .packages__package:first-child {
+        display: none;
+    }
+
+    .services__menu ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .offer__product {
+        grid-template-areas:
+        "slide"
+        "cart"
+        "map";
+
+        grid-template-columns:  minmax(290px, 500px);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offer__product-info {
+        justify-self: center;
+    }
+
+    .offer__product-map {
+        justify-self: center;
+    }
+
+    .offer__description-hotel .note {
+        font-size: 10px;
+    }
+
+    .offer__description {
+        justify-content: space-evenly;
+    }
+
+    .navigation__menu ul li {
+        margin-bottom: 15px;
+        margin-right: 10px;
+    }
+
+    .menu-item{
+        font-size: 10px;
+    }
+
+    .reviews__title {
+        font-size: 30px;
+    }
+
+    .slider-cart-persona-photo {
+        left: 38%;
+    }
+
+    .slider-cart-text {
+        font-size: 10px;
+        margin-top: 22px;
+    }
+
+    .newsletter__info {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .activities__title {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .preface .container {
+        justify-content: center;
+    }
+
+    .preface__contacts {
+        margin-bottom: 15px;
+    }
+
+    .preface__stock-gift:first-child {
+        margin-right: 45px;
+    }
+
+    .preface__contacts-questions {
+        margin-right: 20px;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .header .container {
+        flex-direction: column;
+    }
+
+    .header__search {
+        flex-direction: column;
+        order: 2;
+        margin-top: 15px;
+    }
+
+    .header__search .logo {
+        margin: 20px 0;
+    }
+
+    .header__personal {
+        position: relative;
+        left: 30px;
+        order: 1;
+    }
+
+    .footer {
+        padding: 55px 0 35px 0;
+    }
+
+    .footer__form textarea {
+        display: none;
+    }
+
+    .footer__socials {
+        margin-top: 20px;
+    }
+
+    .footer__message {
+        margin-top: 25px;
+    }
+
+    .offer__description-hotel-title {
+        font-size: 17px;
+    }
+
+    .reviews__slider-cart {
+        padding: 54px 20px 30px 20px;
+    }
+
+    /*.offer__product-info {*/
+    /*    gap: 15px;*/
+    /*}*/
+
+    /*.offer__product-action button {*/
+    /*    width: 230px;*/
+    /*}*/
+
+}
+
+
+
+/* 375 - 424 */
+@media screen and (max-width: 424px) {
+    .offer__description-ratings {
+        position: absolute;
+        top: -37px;
+        right: 47px;
+    }
+
+    .offer__description-ratings {
+        /*position: absolute;*/
+        /*top: -10px;*/
+        /*right: 0;*/
+        display: none;
+    }
+
+    .reviews__title {
+        font-size: 20px;
+    }
+
+    .packages {
+        padding-bottom: 45px;
+    }
+
+
+}
+
+
+
+/* 320 - 374 */
+@media screen and (max-width: 374px) {
+    .search-actions input {
+        width: 229px;
+    }
+
+    .offer__description-ratings {
+        position: absolute;
+        top: -40px;
+        right: 18px;
+    }
+
+    .offer__product-map {
+        width: 290px;
+    }
+
+    .offer__product-info {
+        gap: 15px;
+    }
+
+    .offer__product-action button {
+        width: 230px;
+    }
+
+    .services {
+        padding-bottom: 30px;
+    }
+
+    .packages-title {
+        font-size: 31px;
+    }
+
+    .packages__package {
+        width: 290px;
+    }
+
+    .package-image {
+        width: 290px;
+    }
+
+    .package-image img {
+        width: 100%;
+    }
+
+    .services__comfort-cart {
+        width: 280px;
+    }
+
+    .slider-cart-persona-photo {
+        left: 35%;
+    }
+
+    .newsletter__search input {
+        width: 220px;
+    }
+
+    .services__comfort-title {
+        margin: 45px 0 20px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .footer__socials span {
+        font-size: 16px;
+    }
+
+
+}
